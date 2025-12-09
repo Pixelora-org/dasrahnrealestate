@@ -1,26 +1,101 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-night: 255 255 255;
+  --color-midnight: 248 248 249;
+  --color-obsidian: 240 240 240;
+  --color-platinum: 16 24 40;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html.light {
+  --color-night: 255 255 255;
+  --color-midnight: 248 248 249;
+  --color-obsidian: 240 240 240;
+  --color-platinum: 16 24 40;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-white text-platinum font-sans antialiased transition-colors;
+}
+
+.noise-overlay {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 600 600' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n' x='0' y='0'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+}
+
+.glass-panel {
+  @apply bg-gold/10 border border-gold/20 rounded-3xl shadow-skiper-lg;
+}
+
+html.light .glass-panel {
+  @apply border-gold/20 bg-gold/10 text-platinum;
+}
+
+.skiper-grid {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
+  background-size: 120px 120px;
+}
+
+::selection {
+  background-color: rgba(212, 175, 55, 0.35);
+  color: #05050a;
+}
+
+.skiper-divider {
+  @apply h-px w-full bg-gradient-to-r from-transparent via-gold/30 to-transparent;
+}
+
+.skiper-input {
+  @apply w-full rounded-2xl border border-gold/30 bg-white px-4 py-3 text-sm text-platinum placeholder:text-platinum/50 focus:border-gold focus:outline-none;
+}
+
+html.light .skiper-input {
+  @apply border-gold/30 bg-white text-platinum placeholder:text-platinum/50;
+}
+
+.skiper-card {
+  @apply text-platinum bg-white border-gold/20;
+}
+
+html.light .skiper-card {
+  @apply border-gold/20 bg-white text-platinum shadow-sm hover:border-gold/40 hover:shadow-md;
+}
+
+.skiper-navbar {
+  @apply border-gold/20 bg-white/95 backdrop-blur-sm;
+}
+
+html.light .skiper-navbar {
+  @apply border-gold/20 bg-white/95 text-platinum;
+}
+
+/* Custom Scrollbar - Dark Golden Shade */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(212, 175, 55, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(184, 148, 30, 0.8);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(184, 148, 30, 1);
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(184, 148, 30, 0.8) rgba(212, 175, 55, 0.1);
 }

@@ -1,0 +1,243 @@
+[
+  {
+    "id": "1",
+    "slug": "altair-sky-villa",
+    "title": "Altair Sky Villa",
+    "tagline": "Panoramic glass walls above Bel Air",
+    "location": "Bel Air, Los Angeles",
+    "price": 12500000,
+    "priceLabel": "$12.5M",
+    "type": "Villa",
+    "status": "For Sale",
+    "featured": true,
+    "beds": 6,
+    "baths": 7,
+    "area": 9800,
+    "lotSize": 1.2,
+    "heroImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "An architectural statement suspended over Bel Air canyon, Altair Sky Villa blends carbon fiber louvers, sculpted concrete, and a levitating glass pool for a cinematic indoor-outdoor experience.",
+    "highlights": [
+      "Zero-edge infinity pool with biometric cover",
+      "Helipad-ready rooftop lounge",
+      "AI-driven climate and scent curation",
+      "Acoustic glass for gallery-grade serenity"
+    ],
+    "amenities": [
+      "Private wellness wing",
+      "Six-car gallery garage",
+      "Floating stair atrium",
+      "Sky bar with holographic sommelier",
+      "Sensory garden terraces"
+    ],
+    "coordinates": {
+      "lat": 34.101558,
+      "lng": -118.448788
+    }
+  },
+  {
+    "id": "2",
+    "slug": "aurelia-sandstone-estate",
+    "title": "Aurelia Sandstone Estate",
+    "tagline": "Malibu's cliffside icon",
+    "location": "Malibu, California",
+    "price": 18200000,
+    "priceLabel": "$18.2M",
+    "type": "Estate",
+    "status": "For Sale",
+    "featured": true,
+    "beds": 5,
+    "baths": 6,
+    "area": 8400,
+    "heroImage": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1475856034135-5f19ad974343?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Carved directly into Malibu's sandstone cliffs, Aurelia captures uninterrupted Pacific views with curved glazing, kinetic shading fins, and a tidal wellness level that blurs sea and sky.",
+    "highlights": [
+      "Tidal spa with chroma sauna",
+      "Cantilevered dining pavilion",
+      "Solar lattice roof",
+      "Ocean-facing cinema lounge"
+    ],
+    "amenities": [
+      "Onyx wine gallery",
+      "Saltwater float chamber",
+      "Private bluff access",
+      "Observation deck with fire halo",
+      "Dual-chef kitchens"
+    ],
+    "coordinates": {
+      "lat": 34.025921,
+      "lng": -118.779757
+    }
+  },
+  {
+    "id": "3",
+    "slug": "zenith-harbor-penthouse",
+    "title": "Zenith Harbor Penthouse",
+    "tagline": "Tri-level penthouse over Hudson Harbor",
+    "location": "Hudson Yards, New York",
+    "price": 9500000,
+    "priceLabel": "$9.5M",
+    "type": "Penthouse",
+    "status": "For Sale",
+    "featured": true,
+    "beds": 4,
+    "baths": 5,
+    "area": 5200,
+    "heroImage": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1464146072230-91cabc968266?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1459535653751-d571815e906b?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1488805990569-3c9e1d76d51c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Zenith Harbor floats above Manhattan with triple-height glass, kinetic light sculpture, and a private sky-bridge library that frames the Hudson River like a moving tableau.",
+    "highlights": [
+      "Hydraulic glass atrium",
+      "Sky bridge library",
+      "Private wellness terrace",
+      "Immersive light sculpture"
+    ],
+    "amenities": [
+      "Champagne tasting vault",
+      "Bespoke Savant automation",
+      "Floating bonsai garden",
+      "Private elevator core",
+      "24/7 concierge wing"
+    ],
+    "coordinates": {
+      "lat": 40.754927,
+      "lng": -74.002119
+    }
+  },
+  {
+    "id": "4",
+    "slug": "solstice-highland-retreat",
+    "title": "Solstice Highland Retreat",
+    "tagline": "Sculpted concrete chalet in Aspen",
+    "location": "Aspen, Colorado",
+    "price": 7200000,
+    "priceLabel": "$7.2M",
+    "type": "Retreat",
+    "status": "Private Listing",
+    "featured": false,
+    "beds": 4,
+    "baths": 5,
+    "area": 4600,
+    "heroImage": "https://images.unsplash.com/photo-1475856034135-5f19ad974343?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1459535653751-d571815e906b?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1475856034135-5f19ad974343?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Solstice is a sculpted concrete and timber retreat that frames Aspen's alpine glow with retractable glass walls, geothermal radiant slabs, and a forest observatory pavilion.",
+    "highlights": [
+      "Retractable glass walls",
+      "Geothermal radiant slabs",
+      "Forest observatory pavilion",
+      "Chef's kitchen with lava stone"
+    ],
+    "amenities": [
+      "Ski-in lounge",
+      "Private tasting room",
+      "Infrared wellness halo",
+      "Heated cantilever decks"
+    ],
+    "coordinates": {
+      "lat": 39.191097,
+      "lng": -106.817539
+    }
+  },
+  {
+    "id": "5",
+    "slug": "lyra-bayfront-residence",
+    "title": "Lyra Bayfront Residence",
+    "tagline": "Smart glass residence along Biscayne Bay",
+    "location": "Miami, Florida",
+    "price": 6200000,
+    "priceLabel": "$6.2M",
+    "type": "Residence",
+    "status": "For Sale",
+    "featured": false,
+    "beds": 5,
+    "baths": 6,
+    "area": 5100,
+    "heroImage": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1488805990569-3c9e1d76d51c?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Lyra is a bayfront sanctuary where electrochromic glass, biophilic atriums, and a floating marina lounge craft a seamless Miami indoor-outdoor rhythm.",
+    "highlights": [
+      "Electrochromic glass shell",
+      "Floating marina lounge",
+      "Biophilic atrium",
+      "Tropical plunge pool"
+    ],
+    "amenities": [
+      "Dock with charging slips",
+      "Sound-treated studio",
+      "Dual primary suites",
+      "Pantry with robotic storage"
+    ],
+    "coordinates": {
+      "lat": 25.761681,
+      "lng": -80.191788
+    }
+  },
+  {
+    "id": "6",
+    "slug": "celestia-dunes-villa",
+    "title": "Celestia Dunes Villa",
+    "tagline": "Futurist desert villa with dune-integrated pool",
+    "location": "Dubai, UAE",
+    "price": 20500000,
+    "priceLabel": "$20.5M",
+    "type": "Villa",
+    "status": "Coming Soon",
+    "featured": false,
+    "beds": 7,
+    "baths": 9,
+    "area": 11200,
+    "heroImage": "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1600&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1600&q=80",
+      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80"
+    ],
+    "description": "Celestia Dunes Villa dissolves into the Dubai desert with curved travertine ribbons, subterranean cooling gardens, and a dune-integrated pool that mirrors the night sky.",
+    "highlights": [
+      "Mirrored oasis courtyard",
+      "Subterranean cooling gardens",
+      "Desert observatory",
+      "Curated scent diffusion"
+    ],
+    "amenities": [
+      "Wellness grotto",
+      "Immersive gallery hall",
+      "Four-kitchen program",
+      "Autonomous fleet lounge"
+    ],
+    "coordinates": {
+      "lat": 25.204849,
+      "lng": 55.270783
+    }
+  }
+]
+
+
+
