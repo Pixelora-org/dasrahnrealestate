@@ -18,7 +18,7 @@ const sans = Inter({
 export const metadata: Metadata = {
   title: "Dasara Developers — Premium Real Estate",
   description:
-    "Modern, premium real estate development with luxury at affordable prices. Innovation, design and quality have been our primary focus.",
+    "Explore our premium real estate projects designed with innovation and quality. Modern living spaces at affordable prices.",
 };
 
 export default function RootLayout({

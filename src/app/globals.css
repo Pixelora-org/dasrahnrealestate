@@ -17,7 +17,11 @@ html.light {
 }
 
 body {
-  @apply bg-white text-platinum font-sans antialiased transition-colors;
+  @apply bg-white text-platinum font-sans antialiased transition-colors overflow-x-hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .noise-overlay {
@@ -68,11 +72,11 @@ html.light .skiper-card {
 }
 
 .skiper-navbar {
-  @apply border-gold/20 bg-white/95 backdrop-blur-sm;
+  @apply border-gold/20 bg-black/95 backdrop-blur-sm;
 }
 
 html.light .skiper-navbar {
-  @apply border-gold/20 bg-white/95 text-platinum;
+  @apply border-gold/20 bg-black/95 text-white;
 }
 
 /* Custom Scrollbar - Dark Golden Shade */

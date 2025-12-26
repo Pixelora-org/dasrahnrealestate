@@ -1,7 +1,7 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
+import { ImagePlaceholder } from "@/components/ui/image-placeholder";
 
 type Props = {
   title: string;
@@ -13,49 +13,42 @@ export function ProjectOverview({ title, description, images }: Props) {
   return (
     <section className="space-y-12">
       <div className="text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-platinum mb-4">
+        <h2 className="text-4xl md:text-5xl font-bold text-black mb-4">
           Overview
         </h2>
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
-        {/* Text on the left */}
+      <div className="grid gap-6 md:gap-8 lg:grid-cols-2 lg:items-center">
+        {/* Text centered */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="space-y-6"
+          className="space-y-4 md:space-y-6 text-center lg:text-left"
         >
-          <h3 className="text-3xl md:text-4xl font-bold text-gold">
+          <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gold">
             {title}
           </h3>
-          <p className="text-lg text-platinum/70 leading-relaxed">
+          <p className="text-base sm:text-lg text-black/70 leading-relaxed max-w-2xl mx-auto lg:mx-0 px-4 sm:px-0">
             {description}
           </p>
         </motion.div>
 
-        {/* Images on the right */}
+        {/* Images on the right - Full screen */}
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="space-y-4"
+          className="space-y-4 w-full"
         >
           {images.slice(0, 2).map((image, index) => (
             <div
               key={index}
-              className="relative h-64 w-full overflow-hidden rounded-3xl"
+              className="w-full h-48 sm:h-56 md:h-64 lg:h-80"
             >
-              <Image
-                src={image}
-                alt={`${title} - Image ${index + 1}`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+              <ImagePlaceholder label={`${title} - Image ${index + 1} Required`} size="full" className="h-full w-full rounded-none" />
             </div>
           ))}
         </motion.div>

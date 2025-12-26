@@ -8,8 +8,9 @@ type Props = {
 };
 
 export function SectionHeading({ eyebrow, title, description, className }: Props) {
+  const isCentered = className?.includes("text-center");
   return (
-    <div className={clsx("max-w-3xl space-y-3", className)}>
+    <div className={clsx("max-w-3xl space-y-3", className, isCentered && "mx-auto")}>
       {eyebrow && (
         <p className="text-xs font-semibold uppercase tracking-[0.4em] text-gold">
           {eyebrow}

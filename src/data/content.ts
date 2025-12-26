@@ -2,71 +2,86 @@ export const testimonials = [
   {
     id: "t1",
     quote:
-      "Skiper curated a private collection of homes that felt designed specifically for our art and lifestyle. The entire experience was cinematic.",
-    name: "Isabel Laurent",
-    title: "Creative Director, Atelier V",
-    avatar: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=80",
+      "Dasara Developers delivered a home that exceeded all our expectations. The attention to detail, quality construction, and modern amenities made our purchase decision easy. We couldn't be happier with our new home.",
+    name: "Rajesh Kumar",
+    title: "Business Executive",
+    avatar: "Image Required",
   },
   {
     id: "t2",
     quote:
-      "From discreet previews to holographic walkthroughs, every touchpoint was elevated. We closed our penthouse within a week.",
-    name: "Aaron Cho",
-    title: "Founder, Northwind Capital",
-    avatar: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80",
+      "From the initial site visit to the final handover, Dasara Developers provided exceptional service. The project quality and timely delivery impressed us greatly. Highly recommended!",
+    name: "Priya Sharma",
+    title: "Software Professional",
+    avatar: "Image Required",
   },
   {
     id: "t3",
     quote:
-      "Their negotiators, tech stack, and concierge team delivered the most seamless relocation we've ever executed.",
-    name: "Dr. Mirella Quinn",
-    title: "Neuroscientist & Philanthropist",
-    avatar: "https://images.unsplash.com/photo-1544723795-432537f3b037?auto=format&fit=crop&w=600&q=80",
+      "The team at Dasara Developers made our home buying journey smooth and stress-free. Their commitment to quality and customer satisfaction is evident in every aspect of their work.",
+    name: "Amit Patel",
+    title: "Entrepreneur",
+    avatar: "Image Required",
   },
 ];
 
 export const teamMembers = [
   {
     id: "team-1",
-    name: "Nova Sterling",
-    role: "Founder & Lead Curator",
-    bio: "20+ years curating ultra-prime assets from Aspen to Abu Dhabi.",
-    avatar: "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=80",
+    name: "Rajesh Dasara",
+    role: "Founder & CEO",
+    bio: "15+ years of experience in real estate development with a vision for affordable luxury.",
+    avatar: "Image Required",
   },
   {
     id: "team-2",
-    name: "Kai Mercer",
-    role: "Experience Director",
-    bio: "Designs immersive client journeys powered by spatial computing.",
-    avatar: "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=800&q=80",
+    name: "Priya Dasara",
+    role: "Operations Director",
+    bio: "Ensures seamless project execution and exceptional customer experience.",
+    avatar: "Image Required",
   },
   {
     id: "team-3",
-    name: "Elara Nox",
-    role: "Global Estates Strategist",
-    bio: "Navigates multi-jurisdiction purchases with concierge precision.",
-    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+    name: "Amit Dasara",
+    role: "Sales & Marketing Head",
+    bio: "Drives growth through strategic partnerships and customer-centric approaches.",
+    avatar: "Image Required",
   },
 ];
 
 export const metrics = [
   {
     id: "m1",
-    value: "$4.1B",
-    label: "Global Volume",
-    detail: "Transacted across 42 cities",
+    value: "10+",
+    label: "Years of Experience",
+    detail: "Building trust since 2010",
   },
   {
     id: "m2",
-    value: "63",
-    label: "Private Listings",
-    detail: "Exclusive to Skiper Circle",
+    value: "500+",
+    label: "Happy Families",
+    detail: "Satisfied customers across projects",
   },
   {
     id: "m3",
-    value: "17 hrs",
-    label: "Avg. Response",
-    detail: "Concierge turnaround worldwide",
+    value: "24 hrs",
+    label: "Response Time",
+    detail: "Quick customer support",
+  },
+];
+
+export const ventureCompanies = [
+  {
+    id: "v1",
+    name: "B.S Properties",
+    description: "B.S Properties is a leading real estate development company specializing in commercial and residential projects. With a strong focus on sustainable development and innovative design, B.S Properties has established itself as a trusted name in the industry, delivering quality projects that meet the evolving needs of modern living.",
+    image: "Image Required",
+  },
+  {
+    id: "v2",
+    name: "RMZ",
+    description: "RMZ is a premier real estate developer known for creating world-class commercial spaces and integrated business districts. With expertise in developing large-scale mixed-use projects, RMZ has transformed urban landscapes and set new benchmarks in commercial real estate development across major cities.",
+    image: "Image Required",
   },
 ];
 

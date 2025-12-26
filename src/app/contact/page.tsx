@@ -14,8 +14,13 @@ export default function ContactPage() {
         eyebrow="Contact"
         title="Schedule A Site Visit"
         description="Get in touch with us to schedule a site visit or learn more about our projects."
+        className="text-center"
       />
-      <ContactSection />
+      <div className="flex justify-center">
+        <div className="w-full max-w-6xl">
+          <ContactSection />
+        </div>
+      </div>
     </div>
   );
 }

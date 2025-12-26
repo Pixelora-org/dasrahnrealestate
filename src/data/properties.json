@@ -14,13 +14,13 @@
     "baths": 7,
     "area": 9800,
     "lotSize": 1.2,
-    "heroImage": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "Image Required",
     "gallery": [
-      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1600&q=80"
+      "Image Required",
+      "Image Required",
+      "Image Required",
+      "Image Required",
+      "Image Required"
     ],
     "description": "An architectural statement suspended over Bel Air canyon, Altair Sky Villa blends carbon fiber louvers, sculpted concrete, and a levitating glass pool for a cinematic indoor-outdoor experience.",
     "highlights": [
@@ -55,13 +55,13 @@
     "beds": 5,
     "baths": 6,
     "area": 8400,
-    "heroImage": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "Image Required",
     "gallery": [
-      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1475856034135-5f19ad974343?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1600&q=80"
+      "Image Required",
+      "Image Required",
+      "Image Required",
+      "Image Required",
+      "Image Required"
     ],
     "description": "Carved directly into Malibu's sandstone cliffs, Aurelia captures uninterrupted Pacific views with curved glazing, kinetic shading fins, and a tidal wellness level that blurs sea and sky.",
     "highlights": [
@@ -96,13 +96,13 @@
     "beds": 4,
     "baths": 5,
     "area": 5200,
-    "heroImage": "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "Image Required",
     "gallery": [
-      "https://images.unsplash.com/photo-1464146072230-91cabc968266?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1459535653751-d571815e906b?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1488805990569-3c9e1d76d51c?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80"
+      "Image Required",
+      "Image Required",
+      "Image Required",
+      "Image Required",
+      "Image Required"
     ],
     "description": "Zenith Harbor floats above Manhattan with triple-height glass, kinetic light sculpture, and a private sky-bridge library that frames the Hudson River like a moving tableau.",
     "highlights": [
@@ -137,11 +137,11 @@
     "beds": 4,
     "baths": 5,
     "area": 4600,
-    "heroImage": "https://images.unsplash.com/photo-1475856034135-5f19ad974343?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "Image Required",
     "gallery": [
-      "https://images.unsplash.com/photo-1459535653751-d571815e906b?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1475856034135-5f19ad974343?auto=format&fit=crop&w=1600&q=80"
+      "Image Required",
+      "Image Required",
+      "Image Required"
     ],
     "description": "Solstice is a sculpted concrete and timber retreat that frames Aspen's alpine glow with retractable glass walls, geothermal radiant slabs, and a forest observatory pavilion.",
     "highlights": [
@@ -175,11 +175,11 @@
     "beds": 5,
     "baths": 6,
     "area": 5100,
-    "heroImage": "https://images.unsplash.com/photo-1505691723518-36a5ac3be353?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "Image Required",
     "gallery": [
-      "https://images.unsplash.com/photo-1488805990569-3c9e1d76d51c?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=1600&q=80"
+      "Image Required",
+      "Image Required",
+      "Image Required"
     ],
     "description": "Lyra is a bayfront sanctuary where electrochromic glass, biophilic atriums, and a floating marina lounge craft a seamless Miami indoor-outdoor rhythm.",
     "highlights": [
@@ -213,11 +213,11 @@
     "beds": 7,
     "baths": 9,
     "area": 11200,
-    "heroImage": "https://images.unsplash.com/photo-1469796466635-455ede028aca?auto=format&fit=crop&w=1600&q=80",
+    "heroImage": "Image Required",
     "gallery": [
-      "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1600&q=80",
-      "https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?auto=format&fit=crop&w=1600&q=80"
+      "Image Required",
+      "Image Required",
+      "Image Required"
     ],
     "description": "Celestia Dunes Villa dissolves into the Dubai desert with curved travertine ribbons, subterranean cooling gardens, and a dune-integrated pool that mirrors the night sky.",
     "highlights": [

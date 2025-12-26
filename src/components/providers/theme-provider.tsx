@@ -14,7 +14,7 @@ export function ThemeProvider({ children }: Props) {
       defaultTheme="dark"
       enableSystem
       disableTransitionOnChange
-      storageKey="skiper-ui-theme"
+      storageKey="dasara-developers-theme"
     >
       {children}
     </NextThemeProvider>

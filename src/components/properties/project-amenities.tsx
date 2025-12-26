@@ -1,6 +1,7 @@
 "use client";
 
 import { TreePine, Flower2, IceCream, Users, PartyPopper, Waves, Trees, Baby, Dumbbell, Briefcase, Mountain, Theater, Leaf, Activity, Target } from "lucide-react";
+import { ImagePlaceholder } from "@/components/ui/image-placeholder";
 
 type AmenityItem = {
   icon: React.ReactNode;
@@ -52,23 +53,35 @@ export function ProjectAmenities({ amenities }: Props) {
   const displayAmenities = amenities.length > 0 ? amenities : defaultAmenities;
 
   return (
-    <section className="space-y-12">
+    <section className="space-y-8 sm:space-y-12">
       <div className="text-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-platinum mb-4">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4">
           Amenities
         </h2>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      {/* Amenities List with Images */}
+      <div className="grid gap-4 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {displayAmenities.map((amenity, index) => (
           <div
             key={index}
-            className="flex items-center gap-3 rounded-2xl border border-gold/20 bg-gold/10 p-4"
+            className="flex flex-col rounded-xl sm:rounded-2xl border border-gold/20 bg-gold/10 overflow-hidden hover:border-gold/40 transition-all duration-300"
           >
-            <div className="text-gold flex-shrink-0">
-              {amenityIcons[amenity] || <TreePine className="w-6 h-6" />}
+            {/* Image Section */}
+            <div className="w-full h-40 sm:h-48 md:h-56">
+              <ImagePlaceholder 
+                label={`${amenity} - Image Required`} 
+                size="full" 
+                className="h-full w-full rounded-none" 
+              />
             </div>
-            <p className="text-sm font-medium text-platinum">{amenity}</p>
+            {/* Text Section */}
+            <div className="flex items-center gap-2 sm:gap-3 p-3 sm:p-4">
+              <div className="text-gold flex-shrink-0">
+                {amenityIcons[amenity] || <TreePine className="w-5 h-5 sm:w-6 sm:h-6" />}
+              </div>
+              <p className="text-xs sm:text-sm font-medium text-black">{amenity}</p>
+            </div>
           </div>
         ))}
       </div>

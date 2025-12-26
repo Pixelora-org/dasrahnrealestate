@@ -11,10 +11,27 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="space-y-24">
-      <CompanyOverview />
-      <MissionVision />
-      <ManagementTeam />
+    <div className="space-y-0">
+      {/* Company Overview Section - White Background */}
+      <section className="w-full bg-white py-12 sm:py-16 md:py-20">
+        <div className="container mx-auto px-4 sm:px-6">
+          <CompanyOverview />
+        </div>
+      </section>
+
+      {/* Mission & Vision Section - Golden Background */}
+      <section className="w-full bg-gold/10 py-12 sm:py-16 md:py-20">
+        <div className="container mx-auto px-4 sm:px-6">
+          <MissionVision />
+        </div>
+      </section>
+
+      {/* Management Team Section - White Background */}
+      <section className="w-full bg-white py-12 sm:py-16 md:py-20">
+        <div className="container mx-auto px-4 sm:px-6">
+          <ManagementTeam />
+        </div>
+      </section>
     </div>
   );
 }
