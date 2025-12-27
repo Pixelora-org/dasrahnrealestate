@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const links = [
   { label: "Amenities", href: "/amenities" },
@@ -23,8 +24,15 @@ export function Navbar() {
       transition={{ duration: 0.7, ease: "easeOut" }}
       className="skiper-navbar sticky top-4 z-50 mx-auto flex w-[calc(100%-2rem)] items-center justify-between rounded-full border border-gold/20 bg-black/95 px-4 md:px-6 py-3 backdrop-blur-sm shadow-skiper-lg"
     >
-      <Link href="/" className="text-sm md:text-lg font-semibold tracking-[0.2em] text-gold">
-        DASARA DEVELOPERS
+      <Link href="/" className="flex items-center h-8 md:h-10">
+        <Image
+          src="/dasara developers logo.png"
+          alt="Dasara Developers Logo"
+          width={120}
+          height={40}
+          className="h-full w-auto object-contain"
+          priority
+        />
       </Link>
       <div className="flex items-center gap-3 md:gap-6">
         <nav className="hidden items-center gap-6 text-sm font-medium text-white/80 md:flex">

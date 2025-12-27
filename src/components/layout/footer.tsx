@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const socials = [
   { label: "Instagram", href: "https://instagram.com" },
@@ -17,9 +18,15 @@ export function Footer() {
       <div className="container py-8 sm:py-12 px-4 sm:px-6">
         <div className="grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           <div>
-            <p className="text-xs font-semibold tracking-[0.3em] text-gold">
-              DASARA DEVELOPERS
-            </p>
+            <div className="mb-3">
+              <Image
+                src="/dasara developers logo.png"
+                alt="Dasara Developers Logo"
+                width={140}
+                height={50}
+                className="h-10 sm:h-12 w-auto object-contain"
+              />
+            </div>
             <p className="mt-3 max-w-lg text-xs sm:text-sm text-white/70">
               Innovation, design and quality have been our primary focus in meeting customer expectations. Creating modern living spaces at affordable prices.
             </p>
