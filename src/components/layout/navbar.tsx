@@ -24,12 +24,12 @@ export function Navbar() {
       transition={{ duration: 0.7, ease: "easeOut" }}
       className="skiper-navbar sticky top-4 z-50 mx-auto flex w-[calc(100%-2rem)] items-center justify-between rounded-full border border-gold/20 bg-black/95 px-4 md:px-6 py-3 backdrop-blur-sm shadow-skiper-lg"
     >
-      <Link href="/" className="flex items-center h-8 md:h-10">
+      <Link href="/" className="flex items-center h-8 md:h-10 hover:opacity-80 transition-opacity">
         <Image
           src="/dasara developers logo.png"
           alt="Dasara Developers Logo"
-          width={120}
-          height={40}
+          width={140}
+          height={45}
           className="h-full w-auto object-contain"
           priority
         />
@@ -86,6 +86,17 @@ export function Navbar() {
             className="absolute top-full left-0 right-0 mt-2 rounded-2xl border border-gold/20 bg-black/95 backdrop-blur-sm md:hidden overflow-hidden"
           >
             <div className="flex flex-col p-4 gap-4">
+              <div className="flex justify-center pb-2 border-b border-gold/20">
+                <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center h-10">
+                  <Image
+                    src="/dasara developers logo.png"
+                    alt="Dasara Developers Logo"
+                    width={140}
+                    height={45}
+                    className="h-full w-auto object-contain"
+                  />
+                </Link>
+              </div>
               {links.map((link) => {
                 const isActive =
                   link.href === "/"
