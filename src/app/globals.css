@@ -72,11 +72,11 @@ html.light .skiper-card {
 }
 
 .skiper-navbar {
-  @apply border-gold/20 bg-black/95 backdrop-blur-sm;
+  @apply border-gold/20 backdrop-blur-md;
 }
 
 html.light .skiper-navbar {
-  @apply border-gold/20 bg-black/95 text-white;
+  @apply border-gold/20 text-white;
 }
 
 /* Custom Scrollbar - Dark Golden Shade */

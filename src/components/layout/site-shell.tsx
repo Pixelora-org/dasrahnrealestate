@@ -7,9 +7,9 @@ import { PageTransition } from "./page-transition";
 
 export function SiteShell({ children }: { children: ReactNode }) {
   return (
-    <div className="relative min-h-screen text-platinum bg-white overflow-x-hidden">
+    <div className="relative min-h-screen text-platinum bg-white">
       <Navbar />
-      <main className="mt-20 flex-1 pb-20 overflow-x-hidden">
+      <main className="flex-1 pb-20 pt-[56px]">
         <PageTransition>{children}</PageTransition>
       </main>
       <Footer />
