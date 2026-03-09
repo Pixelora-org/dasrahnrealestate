@@ -11,7 +11,6 @@ import { properties } from "@/data/properties";
 
 const links = [
   { label: "Home", href: "/" },
-  { label: "Amenities", href: "/amenities" },
   { label: "About", href: "/about" },
 ];
 
